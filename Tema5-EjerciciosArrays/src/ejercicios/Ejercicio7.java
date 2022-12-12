@@ -2,10 +2,10 @@ package ejercicios;
 
 import java.util.Scanner;
 
-public class Ejercicio6 {
+public class Ejercicio7 {
 
 	public static void main(String[] args) {
-		
+
 		int tabla [] = new int  [8];
 		
 		int numeroIntroducido;
@@ -18,17 +18,10 @@ public class Ejercicio6 {
 			tabla[i]=numeroIntroducido;
 		}
 		
-		for (int auxiliar : tabla) {
-			boolean esPar=false;
-			if (auxiliar%2==0) {
-				esPar=true;
-			}
-			
-			System.out.println(esPar ? auxiliar + " Es par." : auxiliar + " Es impar.");
-		}
-
+		// for (int  
 		
 		dogma.close();
+
 	}
 
 }

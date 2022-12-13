@@ -27,7 +27,6 @@ public class Ejercicio6 {
 			System.out.println(esPar ? auxiliar + " Es par." : auxiliar + " Es impar.");
 		}
 
-		
 		dogma.close();
 	}
 

@@ -10,21 +10,22 @@ public class Ejercicio5 {
 		
 		double numeroIntroducido;
 		
-		double maximo = tablaReales[0];
-		
-		double minimo = tablaReales[0];
-		
 		Scanner dogma = new Scanner(System.in);
 		
 		for (int i=0; i<tablaReales.length; i++) {
-			System.out.println("Introduzca un numero entero: ");
-			numeroIntroducido=dogma.nextInt();
+			System.out.println("Introduzca un numero decimal: ");
+			numeroIntroducido=dogma.nextDouble();
 			tablaReales[i]=numeroIntroducido;
 		}
 
+		//Como array esta creado al dar a maximo valor posicion 0 en array este valor es 0
+		double maximo = tablaReales[0];
+		
+		//Como array esta creado al dar a minimo valor posicion 0 en array este valor es 0
+		double minimo = tablaReales[0];
+		
 		for (double auxiliar : tablaReales) {
 			
-		
 			if (auxiliar>maximo) {
 				maximo=auxiliar;
 			}
@@ -35,7 +36,7 @@ public class Ejercicio5 {
 			
 		}
 		
-		System.out.println(maximo);
+		System.out.println("Numero maximo: " + maximo + " Numero minimo: " + minimo);
 		
 		dogma.close();
 	}

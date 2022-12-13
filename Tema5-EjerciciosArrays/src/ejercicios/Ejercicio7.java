@@ -6,7 +6,7 @@ public class Ejercicio7 {
 
 	public static void main(String[] args) {
 
-		int tabla [] = new int  [8];
+		int tabla [] = new int [8];
 		
 		int numeroIntroducido;
 		
@@ -18,7 +18,11 @@ public class Ejercicio7 {
 			tabla[i]=numeroIntroducido;
 		}
 		
-		// for (int  
+		
+		for (int i=tabla.length-1; i>=0; i--) {
+			System.out.println(tabla[i]);
+		
+		}
 		
 		dogma.close();
 

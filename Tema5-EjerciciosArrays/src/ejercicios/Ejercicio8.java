@@ -9,8 +9,6 @@ public class Ejercicio8 {
 		int cuadrados []= new int [20];
 		
 		int cubos []= new int [20];
-		
-	//	int numeroRandom = (int) (Math.random()*100);
 
 		for (int i=0; i<numeros.length; i++) {
 			numeros[i]=(int) (Math.random()*100+1);
